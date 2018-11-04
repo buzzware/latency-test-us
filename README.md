@@ -1,7 +1,17 @@
 # latency-test-us
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This was created for testing Firebase related to the issue https://github.com/firebase/firebase-functions/issues/161
+
+It is hosted at https://latency-test-us.firebaseapp.com/
+
+Currently it simply hosts an empty ember app plus a firebase function "heartbeat" 
+
+## heartbeat
+
+Hosted at :
+https://latency-test-us.firebaseapp.com/functions/heartbeat
+
+The database parameter (boolean, default true) switches whether a firestore request to a non-existant document is made (to wake up the database).
 
 ## Prerequisites
 
