@@ -11,7 +11,10 @@ Currently it simply hosts an empty ember app plus a firebase function "heartbeat
 Hosted at :
 https://latency-test-us.firebaseapp.com/functions/heartbeat
 
-The database parameter (boolean, default true) switches whether a firestore request to a non-existant document is made (to wake up the database).
+The database parameter (boolean, default true) switches whether a firestore request to a non-existant document is made (to wake up the database). eg.
+
+use https://latency-test-us.firebaseapp.com/functions/heartbeat?database=false
+for the simplest function.
 
 ## Prerequisites
 
